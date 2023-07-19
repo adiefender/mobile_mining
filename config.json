@@ -1,0 +1,22 @@
+{
+	"pools":[
+	{
+		"name": "verus.aninterestinghole.xyz:9999",
+        "url": "stratum+tcp://verus.aninterestinghole.xyz:9999",
+		"timeout": 150
+	},
+	{
+		"name": "verus.farm (Quipacorn)",
+        "url": "stratum+tcp://verus.farm:9999",
+		"timeout": 60,
+		"time-limit": 600
+	}],
+	
+	"user": "REAjMTMhyKsqga1n7Ck7mPumzSXbUVZYt7.mobile_farm",
+	"algo": "verus",
+	"threads": 8,
+	"cpu-priority": 1,
+	"retry-pause": 5,
+	"api-allow": "192.168.0.0/16",
+	"api-bind": "0.0.0.0:4068"
+}
