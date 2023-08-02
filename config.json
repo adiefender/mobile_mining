@@ -1,8 +1,8 @@
 {
 	"pools":[
 	{
-		"name": "verus.aninterestinghole.xyz:9999",
-        "url": "stratum+tcp://verus.aninterestinghole.xyz:9999",
+		"name": "na.luckpool.net:3956",
+        "url": "stratum+tcp://na.luckpool.net:3956",
 		"timeout": 150
 	},
 	{
