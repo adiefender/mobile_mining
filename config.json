@@ -1,18 +1,18 @@
 {
 	"pools":[
 	{
-		"name": "usmw.vipor.net:5040",
+		"name": "usw.vipor.net:5040",
         "url": "stratum+tcp://usw.vipor.net:5040",
 		"timeout": 150
 	},
 	{
-		"name": "usw.vipor.net:5040",
+		"name": "usmw.vipor.net:5040",
         "url": "stratum+tcp://usmw.vipor.net:5040",
 		"timeout": 60,
 		"time-limit": 600
 	}],
 	
-	"user": "REAjMTMhyKsqga1n7Ck7mPumzSXbUVZYt7.dream5_03",
+	"user": "REAjMTMhyKsqga1n7Ck7mPumzSXbUVZYt7.A03_01",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
