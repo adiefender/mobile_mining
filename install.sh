@@ -25,7 +25,7 @@ screen -wipe 1>/dev/null 2>&1
 #create new disconnected session CCminer
 screen -dmS CCminer 1>/dev/null 2>&1
 #run the miner
-screen -S CCminer -X stuff "~/ccminer/ccminer/ccminer-3.8.3-4_ARM -c ~/ccminer/config.json\n" 1>/dev/null 2>&1
+screen -S CCminer -X stuff "~/ccminer/ccminer -c ~/ccminer/config.json\n" 1>/dev/null 2>&1
 printf '\nMining started.\n'
 printf '===============\n'
 printf '\nManual:\n'
@@ -35,9 +35,7 @@ printf '\nmonitor mining: screen -x CCminer\n'
 printf "exit monitor: 'CTRL-a' followed by 'd'\n\n"
 EOF
 chmod +x start.sh
-cd ccminer
-chmod +x ccminer-3.8.3-4_ARM
-cd ..
+
 echo "setup nearly complete."
 echo "Edit the config with \"nano ~/ccminer/config.json\""
 
