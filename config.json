@@ -1,8 +1,8 @@
 {
 	"pools":[
 	{
-		"name": "na.luckpool.net:3956",
-        "url": "stratum+tcp://na.luckpool.net:3956",
+		"name": "usmw.vipor.net:5040",
+        "url": "stratum+tcp://usmw.vipor.net:5040",
 		"timeout": 150
 	},
 	{
@@ -12,7 +12,7 @@
 		"time-limit": 600
 	}],
 	
-	"user": "REAjMTMhyKsqga1n7Ck7mPumzSXbUVZYt7.mobile_A03s",
+	"user": "REAjMTMhyKsqga1n7Ck7mPumzSXbUVZYt7.mobile_TCL1",
 	"algo": "verus",
 	"threads": 8,
 	"cpu-priority": 1,
