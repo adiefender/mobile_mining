@@ -2,12 +2,12 @@
 	"pools":[
 	{
 		"name": "usmw.vipor.net:5040",
-        "url": "stratum+tcp://usmw.vipor.net:5040",
+        "url": "stratum+tcp://usw.vipor.net:5040",
 		"timeout": 150
 	},
 	{
 		"name": "usw.vipor.net:5040",
-        "url": "stratum+tcp://usw.vipor.net:5040",
+        "url": "stratum+tcp://usmw.vipor.net:5040",
 		"timeout": 60,
 		"time-limit": 600
 	}],
